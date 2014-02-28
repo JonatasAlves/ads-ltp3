@@ -1,0 +1,22 @@
+﻿Automação
+	TV
+	Aparelho de Som
+	Geladeira
+	Microondas
+	Iluminação
+	Ar-Condicionado
+
+TV
+	Características
+		Modelo
+		Localização
+		Tamanho
+		Marca
+	Ações
+		Ligar
+		Desligar
+		Mute
+		Canal +
+		Canal -
+		Som +
+		Som -
