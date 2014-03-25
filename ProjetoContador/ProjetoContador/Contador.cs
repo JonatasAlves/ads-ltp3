@@ -4,13 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ExemploRecipiente
+namespace ProjetoContador
 {
-    class Program
+    class Contador
     {
-        static void Main(string[] args)
-        {
-
-        }
     }
 }
