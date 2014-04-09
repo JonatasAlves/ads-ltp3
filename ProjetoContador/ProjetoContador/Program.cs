@@ -10,6 +10,16 @@ namespace ProjetoContador
     {
         static void Main(string[] args)
         {
+            Contador ct = new Contador();
+            ct.Incrementar();
+            ct.Incrementar();
+
+            Console.WriteLine(ct.RetornarValor());
+
+            ct.Zerar();
+            ct.Incrementar();
+            Console.WriteLine(ct.RetornarValor());
+            Console.ReadKey();
         }
     }
 }

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="Banco">
+  <logicalClassDesignerModelMoniker Id="1da1a924-006c-4ae4-8c2f-93238b4bcd0d" />
+  <nestedChildShapes>
+    <classShape Id="8fc575f8-6b29-4408-9fec-37a34b91f1be" absoluteBounds="1.625, 1.75, 3, 2.0234374503294625" hideQualifiedName="false" increaseHeight="0" customColor="181, 193, 223">
+      <classMoniker Id="7dc6ba1a-fd06-4625-9f0e-a6283d3ac58e" LastKnownName="ContaCorrente" />
+      <nestedChildShapes>
+        <AttributeElementListCompartment Id="82c020cd-be50-4ed4-a3fb-caf8a5f8688d" absoluteBounds="1.6400000000000001, 2.14, 2.9699999999999998, 0.84179684768120444" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <OperationElementListCompartment Id="78e330d3-8020-4ae7-92e0-b1ca2a953111" absoluteBounds="1.6400000000000001, 2.9917968476812042, 2.9699999999999998, 0.68164060264825821" name="OperationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</logicalClassDesignerDiagram>

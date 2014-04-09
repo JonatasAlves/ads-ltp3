@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="Contador">
+  <logicalClassDesignerModelMoniker Id="234db7f7-a172-45eb-9fd7-fc27b0ccfc1c" />
+  <nestedChildShapes>
+    <classShape Id="09202934-33d4-4d91-85b5-ff3c9ae3eaad" absoluteBounds="4.25, 1, 1.5, 1.5429687152306237" hideQualifiedName="false" increaseHeight="0" customColor="181, 193, 223">
+      <classMoniker Id="1ba4d14b-49da-4de5-9c63-43284e597edc" LastKnownName="Contador" />
+      <nestedChildShapes>
+        <AttributeElementListCompartment Id="79d650db-ab78-43d4-9359-df5322d406c9" absoluteBounds="4.265, 1.3900000000000001, 1.4700000000000002, 0.36132811258236563" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <OperationElementListCompartment Id="3503f42d-fa55-4278-8711-bbed36dfacb1" absoluteBounds="4.265, 1.7613281125823654, 1.4700000000000002, 0.68164060264825821" name="OperationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</logicalClassDesignerDiagram>

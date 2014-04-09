@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="234db7f7-a172-45eb-9fd7-fc27b0ccfc1c" name="Contador" linkedPackageId="8e24339f-1c68-449f-ab90-c3140d3d7be9" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="5492e97c-786a-4802-9e39-8806125908d0">
+      <profileInstance Id="45139d08-92bc-4acf-a086-610cb22da282" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="159b15e2-3f5a-449e-bf0c-9d01c55ed5f3">
+      <profileInstance Id="15bcc1da-9e48-427f-b651-c5a4761f89c4" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="1ba4d14b-49da-4de5-9c63-43284e597edc" name="Contador" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="f8926ec3-3821-44af-99fb-0d4d7e6e26f3" />
+        <ownedAttributesInternal>
+          <property Id="a49dabeb-4a5d-4239-be47-12145cb22974" name="valor" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="e306af75-1e5d-41ff-9d8d-2391e6ed63b3" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="93951ff3-18b1-49e9-af09-57b550f33e2e" LastKnownName="int" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="e591f887-7963-4748-8298-0b38c79fd297" name="Incrementar" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="d0a9c06a-a8da-4bea-92e1-04160911c02c" />
+          </operation>
+          <operation Id="56992015-af05-4918-8d9a-b5831af6519b" name="Zerar" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="8b719d0a-08ab-4a37-9f22-b751fa0a860b" />
+          </operation>
+          <operation Id="90318098-a829-489b-812f-e2083bc381f0" name="RetornaValor" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="4f3d6e4b-096b-430e-8e36-0edd0b73dda3" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="bf6a54d2-c113-441f-a06d-722702c0182c" direction="Return" isUnique="false">
+                  <elementDefinition Id="d89e6643-97b0-4c63-96d7-4d3cf503ed59" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="93951ff3-18b1-49e9-af09-57b550f33e2e" LastKnownName="int" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <packageHasNamedElement>
+      <referencedType Id="93951ff3-18b1-49e9-af09-57b550f33e2e" name="int" isAbstract="false" isLeaf="false" cachedFullName="int">
+        <elementDefinition Id="0c39855e-3450-44a2-a3c1-c2b845e2bb88" />
+      </referencedType>
+    </packageHasNamedElement>
+  </packagedElements>
+  <package Id="8e24339f-1c68-449f-ab90-c3140d3d7be9" name="ModelingProject">
+    <elementDefinition Id="9e201cc0-baa0-4524-8c63-f1b0f59a6dbe" />
+  </package>
+</logicalClassDesignerModel>
